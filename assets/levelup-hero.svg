@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 620" role="img" aria-labelledby="title desc">
+<title id="title">LevelUp Scuola — esploratore urbano</title><desc id="desc">Studente in stile fumetto manga con felpa viola, cuffie e cappellino, davanti a una città futuristica illuminata al neon.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151044"/><stop offset=".55" stop-color="#063e70"/><stop offset="1" stop-color="#08112e"/></linearGradient>
+ <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e23cff"/><stop offset=".52" stop-color="#8a28ed"/><stop offset="1" stop-color="#35218e"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd7b3"/><stop offset="1" stop-color="#e78e78"/></linearGradient>
+ <linearGradient id="cap" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9a63ff"/><stop offset="1" stop-color="#31205e"/></linearGradient>
+ <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#00f2ff"/><stop offset="1" stop-color="#0876bb"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<!-- neon city backdrop -->
+<path d="M0 0H420V620H0Z" fill="url(#sky)"/>
+<g opacity=".8" stroke-linejoin="round">
+ <path d="M0 210L35 174 61 197 86 136 111 182 145 156 172 205V620H0Z" fill="#121b59" stroke="#00dcff" stroke-width="3"/>
+ <path d="M250 196L279 143 305 170 330 108 359 153 390 125 420 160V620H250Z" fill="#101a52" stroke="#b12cff" stroke-width="3"/>
+ <path d="M18 268H142M278 238H407" stroke="#00eaff" stroke-width="3" filter="url(#glow)"/>
+ <g fill="#00eaff"><rect x="14" y="231" width="11" height="22"/><rect x="43" y="218" width="12" height="20"/><rect x="72" y="252" width="10" height="18"/><rect x="101" y="209" width="12" height="24"/><rect x="290" y="213" width="12" height="22"/><rect x="322" y="193" width="12" height="26"/><rect x="355" y="223" width="11" height="20"/><rect x="389" y="188" width="12" height="24"/></g>
+ <g fill="#ff2edb"><rect x="26" y="286" width="10" height="21"/><rect x="62" y="302" width="12" height="17"/><rect x="110" y="277" width="10" height="22"/><rect x="278" y="276" width="12" height="20"/><rect x="340" y="260" width="12" height="23"/><rect x="379" y="291" width="12" height="20"/></g>
+</g>
+<path d="M30 65L75 38 60 83 101 62" fill="none" stroke="#00eaff" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
+<path d="M337 66L375 36 363 78 403 51" fill="none" stroke="#d5ff00" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
+<circle cx="345" cy="325" r="130" fill="#00eaff" opacity=".12" filter="url(#shadow)"/>
+<!-- backpack -->
+<path d="M98 352Q81 316 108 290L156 285 190 377 154 500 75 484Z" fill="#f4a32b" stroke="#20133e" stroke-width="12"/>
+<path d="M102 345L145 330 165 405 130 457" fill="none" stroke="#ffd36b" stroke-width="8"/>
+<!-- body hoodie -->
+<path d="M99 601Q91 483 115 389Q129 348 177 329L244 328Q294 346 322 399L365 601Z" fill="url(#hoodie)" stroke="#171133" stroke-width="13" stroke-linejoin="round"/>
+<path d="M174 345L210 397 248 344 286 601H129Z" fill="url(#shirt)" stroke="#21123f" stroke-width="8" stroke-linejoin="round"/>
+<path d="M177 347L210 397 248 344" fill="none" stroke="#d5ff00" stroke-width="8" stroke-linejoin="round"/>
+<!-- neck -->
+<path d="M177 275L174 339 211 369 248 337 239 273Z" fill="url(#skin)" stroke="#21133d" stroke-width="9" stroke-linejoin="round"/>
+<!-- ears and face -->
+<ellipse cx="126" cy="218" rx="23" ry="36" fill="url(#skin)" stroke="#20123b" stroke-width="8"/>
+<ellipse cx="286" cy="215" rx="22" ry="35" fill="url(#skin)" stroke="#20123b" stroke-width="8"/>
+<path d="M127 157Q137 104 205 105Q273 108 285 161L274 245Q262 296 211 309Q159 296 139 248Z" fill="url(#skin)" stroke="#21133d" stroke-width="10" stroke-linejoin="round"/>
+<!-- hair -->
+<path d="M123 190Q95 142 128 105Q145 82 179 91Q224 67 260 99Q293 121 285 179L267 159 253 139 228 151 211 130 182 151 158 143 145 184Z" fill="#18142c" stroke="#080b20" stroke-width="10" stroke-linejoin="round"/>
+<path d="M139 135Q174 97 212 111L236 128 259 119 245 144 215 148 195 134 169 151Z" fill="#d56b28" stroke="#21133d" stroke-width="7" stroke-linejoin="round"/>
+<!-- backwards cap -->
+<path d="M114 158Q92 105 132 75Q176 43 231 70Q267 89 278 126L243 144 209 119 162 137Z" fill="url(#cap)" stroke="#14102e" stroke-width="10" stroke-linejoin="round"/>
+<path d="M120 107Q172 71 236 99L264 123 231 119 208 106 172 119Z" fill="#00eaff" stroke="#20133d" stroke-width="7"/>
+<path d="M233 112Q280 102 307 129L276 146 243 137Z" fill="#5a30b5" stroke="#14102e" stroke-width="9" stroke-linejoin="round"/>
+<!-- face expression -->
+<path d="M151 205Q169 190 188 204M228 203Q246 188 263 202" fill="none" stroke="#21133d" stroke-width="9" stroke-linecap="round"/>
+<path d="M157 215L181 216M234 214L256 214" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+<path d="M207 216L199 239 214 239" fill="none" stroke="#b65c56" stroke-width="5" stroke-linecap="round"/>
+<path d="M178 260Q211 280 245 255" fill="none" stroke="#8d354d" stroke-width="7" stroke-linecap="round"/>
+<path d="M177 262Q209 273 243 258" fill="none" stroke="#fff0dc" stroke-width="3" stroke-linecap="round"/>
+<!-- headphones -->
+<path d="M117 221Q100 145 158 122M278 219Q301 145 248 122" fill="none" stroke="#15152f" stroke-width="20" stroke-linecap="round"/>
+<path d="M117 221Q100 145 158 122M278 219Q301 145 248 122" fill="none" stroke="#00eaff" stroke-width="5" stroke-linecap="round"/>
+<rect x="100" y="208" width="34" height="63" rx="14" fill="#25254d" stroke="#00eaff" stroke-width="6" transform="rotate(-12 117 239)"/>
+<rect x="266" y="206" width="34" height="63" rx="14" fill="#25254d" stroke="#ff2edb" stroke-width="6" transform="rotate(12 283 237)"/>
+<!-- hoodie folds, drawstrings, badge -->
+<path d="M139 405L160 466M282 402L265 458M173 438L186 504M247 437L232 493" fill="none" stroke="#f7a8ff" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+<path d="M185 374L183 445M236 371L241 440" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<circle cx="183" cy="451" r="6" fill="#d5ff00"/><circle cx="241" cy="446" r="6" fill="#d5ff00"/>
+<path d="M289 492L328 502 310 542 270 530Z" fill="#10152d" stroke="#d5ff00" stroke-width="5"/>
+<path d="M286 510L312 519M282 520L306 529" stroke="#00eaff" stroke-width="4"/>
+<!-- graffiti crown -->
+<path d="M282 77L294 41 317 62 340 25 357 59 383 43 376 85Z" fill="#d5ff00" stroke="#171333" stroke-width="7" stroke-linejoin="round"/>
+<path d="M291 91L377 96" stroke="#00eaff" stroke-width="8" stroke-linecap="round"/>
+<!-- energy flecks -->
+<g stroke-linecap="round" stroke-width="7" filter="url(#glow)"><path d="M58 365L39 354" stroke="#d5ff00"/><path d="M350 355L374 341" stroke="#00eaff"/><path d="M65 443L42 447" stroke="#ff2edb"/><path d="M348 437L376 447" stroke="#d5ff00"/></g>
+</svg>
