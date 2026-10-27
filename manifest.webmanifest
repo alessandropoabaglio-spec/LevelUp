@@ -1,0 +1,11 @@
+{
+  "name": "LevelUp Scuola",
+  "short_name": "LevelUp",
+  "description": "Impara giocando: prototipo educativo per le superiori",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#10101a",
+  "theme_color": "#10101a",
+  "icons": []
+}
