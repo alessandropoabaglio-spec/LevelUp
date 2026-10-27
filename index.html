@@ -146,6 +146,30 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 @media(min-width:700px){body:before{background-size:cover;background-position:center 10%}.app{background:linear-gradient(180deg,transparent,rgba(5,7,22,.15) 28%,rgba(5,7,22,.55) 100%)!important}}
 @media(prefers-reduced-motion:reduce){body:before{background-attachment:scroll}}
 </style>
+<style id="levelup-background-visibility-v3">
+html{background:#050716!important}
+body{position:relative!important;isolation:isolate;background:#050716!important;background-image:none!important}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(180deg,rgba(5,7,22,.08) 0%,rgba(5,7,22,.15) 45%,rgba(5,7,22,.52) 82%,rgba(5,7,22,.82) 100%),url("./assets/levelup-hero.svg");background-position:center top;background-repeat:no-repeat;background-size:100% auto;opacity:.96}
+.app{position:relative;z-index:1;background:transparent!important}
+.hero{min-height:unset!important;height:auto!important;padding:26px 24px 30px!important;background:linear-gradient(120deg,rgba(16,10,42,.34),rgba(12,23,53,.29) 56%,rgba(0,37,61,.25))!important;border:2px solid rgba(149,88,255,.92)!important;backdrop-filter:blur(0)!important;box-shadow:inset 0 0 28px rgba(170,45,255,.09),0 0 18px rgba(0,225,255,.10),0 12px 35px #0005!important}
+.hero:before{background:repeating-linear-gradient(132deg,transparent 0 25px,#d9e9ff08 26px 28px),radial-gradient(ellipse at 82% 56%,#00eaff10 0 12%,transparent 48%)!important}
+.hero:after{display:none!important}
+.hero .hero-content{max-width:72%!important}
+.hero .mascot.character-art{display:none!important}
+.stat,.mission,.subject,.quiz,.pathrow,.badgecard{background-color:rgba(11,17,44,.70)!important;backdrop-filter:blur(3px)}
+.stat{background:linear-gradient(145deg,rgba(20,28,67,.76),rgba(9,15,40,.70))!important}
+.mission{background:linear-gradient(120deg,rgba(23,20,60,.76),rgba(16,27,59,.72) 75%,rgba(9,43,72,.70))!important}
+.nav{z-index:100;background:rgba(5,9,29,.97)!important;backdrop-filter:blur(12px)}
+@media(max-width:620px){
+body:before{background-size:100% auto;background-position:center 78px;opacity:.98;background-image:linear-gradient(180deg,rgba(5,7,22,.02) 0%,rgba(5,7,22,.08) 50%,rgba(5,7,22,.48) 82%,rgba(5,7,22,.78) 100%),url("./assets/levelup-hero.svg")}
+.hero{padding:22px 17px 25px!important;border-radius:25px!important}
+.hero .hero-content{max-width:100%!important}
+.hero h1{font-size:clamp(2.35rem,9vw,3.4rem)}
+.hero p{max-width:100%;text-shadow:0 2px 10px #050716}
+}
+@media(min-width:700px){body:before{background-size:min(100%,980px) auto;background-position:center top}}
+@media(prefers-reduced-motion:reduce){body:before{background-attachment:scroll}}
+</style>
 </head>
 <body><div class="app">
 <header class="top"><div class="brand">LEVEL<span>UP</span><br><span style="color:#fff;font-size:.55em;letter-spacing:2px">SCUOLA</span></div><div class="wallet"><div class="pill">🪙 <b id="coins">0</b></div><div class="pill">⚡ Lv. <b id="level">1</b></div></div></header>
