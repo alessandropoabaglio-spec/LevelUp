@@ -114,6 +114,22 @@ body{background:#05091d;background-image:radial-gradient(ellipse at 50% 0%,#152c
 @media(max-width:380px){.hero{min-height:435px}.hero-content{max-width:85%}.character-art{width:43%;height:70%;right:-2px}.hero h1{font-size:2.25rem}}
 @media(prefers-reduced-motion:reduce){.character-art img{animation:none}}
 </style>
+<style id="levelup-full-art-background">
+html{background:#050716!important}
+body{background-color:#050716!important;background-image:linear-gradient(180deg,rgba(4,5,24,.12) 0%,rgba(4,5,24,.30) 35%,rgba(4,5,24,.88) 72%,#050716 100%),url("./assets/levelup-hero.svg")!important;background-position:center top!important;background-repeat:no-repeat!important;background-size:100% auto!important;background-attachment:fixed!important}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 50% 12%,rgba(0,225,255,.13),transparent 42%),linear-gradient(180deg,transparent 0%,rgba(5,7,22,.18) 32%,rgba(5,7,22,.88) 78%,#050716 100%)}
+.app{position:relative;z-index:1}
+.hero{background:linear-gradient(115deg,rgba(13,10,39,.78),rgba(8,20,49,.69) 58%,rgba(0,34,60,.66))!important;border:2px solid #a34cff!important;box-shadow:inset 0 0 32px rgba(170,45,255,.20),0 0 18px rgba(0,225,255,.14),0 12px 35px #0008!important;backdrop-filter:blur(2px)}
+.hero:before{background:repeating-linear-gradient(132deg,transparent 0 25px,#d9e9ff0a 26px 28px),radial-gradient(ellipse at 82% 56%,#00eaff20 0 12%,transparent 48%)!important}
+.hero:after{border-color:#00eaff18!important}
+.hero .character-art{display:none!important}
+.stat,.mission,.subject,.quiz,.pathrow,.badgecard{backdrop-filter:blur(5px);background-color:rgba(11,17,44,.78)}
+.stat{background:linear-gradient(145deg,rgba(20,28,67,.84),rgba(9,15,40,.82))!important;border-color:#5d54a5!important}
+.mission{background:linear-gradient(120deg,rgba(23,20,60,.88),rgba(16,27,59,.85) 75%,rgba(9,43,72,.83))!important}
+.nav{background:rgba(5,9,29,.96)!important;backdrop-filter:blur(12px)}
+@media(min-width:700px){body{background-size:min(100%,980px) auto!important;background-position:center top!important}.app{background:linear-gradient(180deg,transparent 0%,rgba(5,7,22,.04) 20%,rgba(5,7,22,.4) 48%,rgba(5,7,22,.78) 100%)}}
+@media(prefers-reduced-motion:reduce){body{background-attachment:scroll!important}}
+</style>
 </head>
 <body><div class="app">
 <header class="top"><div class="brand">LEVEL<span>UP</span><br><span style="color:#fff;font-size:.55em;letter-spacing:2px">SCUOLA</span></div><div class="wallet"><div class="pill">🪙 <b id="coins">0</b></div><div class="pill">⚡ Lv. <b id="level">1</b></div></div></header>
