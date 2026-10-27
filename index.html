@@ -130,6 +130,22 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 @media(min-width:700px){body{background-size:min(100%,980px) auto!important;background-position:center top!important}.app{background:linear-gradient(180deg,transparent 0%,rgba(5,7,22,.04) 20%,rgba(5,7,22,.4) 48%,rgba(5,7,22,.78) 100%)}}
 @media(prefers-reduced-motion:reduce){body{background-attachment:scroll!important}}
 </style>
+<style id="levelup-real-background-v2">
+html{background:#050716!important;min-height:100%}
+body{position:relative!important;isolation:isolate;background:#050716!important;background-image:none!important;color:#fff}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(180deg,rgba(5,7,22,.22) 0%,rgba(5,7,22,.48) 42%,rgba(5,7,22,.82) 78%,#050716 100%),url("./assets/levelup-hero.svg");background-position:center top;background-repeat:no-repeat;background-size:cover;opacity:.62}
+.app{position:relative;z-index:1;background:transparent!important}
+.hero{background:linear-gradient(120deg,rgba(16,10,42,.66),rgba(12,23,53,.62) 56%,rgba(0,37,61,.58))!important;border:2px solid #9558ff!important;backdrop-filter:blur(1.5px)}
+.hero:before{background:repeating-linear-gradient(132deg,transparent 0 25px,#d9e9ff0a 26px 28px),radial-gradient(ellipse at 82% 56%,#00eaff1c 0 12%,transparent 48%)!important}
+.hero:after{display:none!important}
+.hero .mascot.character-art{display:none!important}
+.stat,.mission,.subject,.quiz,.pathrow,.badgecard{background-color:rgba(11,17,44,.76)!important;backdrop-filter:blur(7px)}
+.stat{background:linear-gradient(145deg,rgba(20,28,67,.82),rgba(9,15,40,.78))!important}
+.mission{background:linear-gradient(120deg,rgba(23,20,60,.86),rgba(16,27,59,.82) 75%,rgba(9,43,72,.80))!important}
+.nav{z-index:100;background:rgba(5,9,29,.96)!important;backdrop-filter:blur(12px)}
+@media(min-width:700px){body:before{background-size:cover;background-position:center 10%}.app{background:linear-gradient(180deg,transparent,rgba(5,7,22,.15) 28%,rgba(5,7,22,.55) 100%)!important}}
+@media(prefers-reduced-motion:reduce){body:before{background-attachment:scroll}}
+</style>
 </head>
 <body><div class="app">
 <header class="top"><div class="brand">LEVEL<span>UP</span><br><span style="color:#fff;font-size:.55em;letter-spacing:2px">SCUOLA</span></div><div class="wallet"><div class="pill">🪙 <b id="coins">0</b></div><div class="pill">⚡ Lv. <b id="level">1</b></div></div></header>
